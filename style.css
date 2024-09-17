@@ -1,0 +1,359 @@
+body {
+    background-color: #222831;
+    margin: 0px;
+    padding: 0px;   
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    outline: 0;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 300;
+    color: white;
+}
+
+
+
+.submit-page {
+    width: 360px;
+    padding: 8% 0 0;
+    margin: auto;
+}
+
+.submitcontainer {
+    position: relative;
+    z-index: 1;
+    background-color: rgba(32, 39, 49, 0.13);
+    border-radius: 8px;
+    max-width: 360px;
+    margin: 0 auto 100px;
+    padding: 45px;
+    text-align: center;
+    box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
+    padding: 50px 35px;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+
+    backdrop-filter: blur(10px);
+
+}
+
+.submitcontainer input {
+    font-family: 'Montserrat', sans-serif;
+    outline: 0;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-weight: 300;
+    background-color: rgba(255, 255, 255, 0.07);
+    color: white;
+}
+
+
+
+.submitcontainer input[type="submit"] {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    outline: 0;
+    background: #3c31dd;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: white;
+    font-size: 16px;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.submitcontainer input[type="submit"]:hover,
+.submitcontainer input[type="submit"]:active,
+.submitcontainer input[type="submit"]:focus {
+    background: #3c31dd;
+}
+
+
+.submitcontainer input[type="submit"]:hover,
+.submitcontainer input[type="submit"]:active,
+.submitcontainer input[type="submit"]:focus {
+    background: #837bea;
+}
+
+.submitcontainer a {
+    
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    outline: 0;
+    background: #3c31dd;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: white;
+    font-size: 16px;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+
+}
+a {
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    outline: 0;
+    background: #3c31dd;
+    width: 100%;
+    border: 0;
+    padding: px;
+    color: white;
+    font-size: 16px;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+
+}
+.submitcontainer a:hover,
+.submitcontainer a:active,
+.submitcontainer a:focus {
+    background: #837bea;
+}
+
+.submitcontainer button {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    outline: 0;
+    background: #3c31dd;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: white;
+    font-size: 16px;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.submitcontainer button:hover,
+.submitcontainer button:active,
+.submitcontainer button:focus {
+    background: #3c31dd;
+}
+
+
+.submitcontainer button:hover,
+.submitcontainer button:active,
+.submitcontainer button:focus {
+    background: #837bea;
+}
+select{
+    border:none;
+    font-family: 'Montserrat', sans-serif;
+    outline: 0;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-weight: 300;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+
+    padding: 10px 20px;
+    border-radius:5px;
+  }
+  
+  select:focus{
+    outline:none;
+  }
+
+
+
+
+/* Responsive navigation menu */
+
+
+
+/* Logo element navigates back to the homepage */
+.logo {
+    margin: 0;
+    font-size: 2em;
+    padding: 10px;
+}
+
+
+.navmenu {
+    margin-top: 5px;
+    list-style-type: none;
+
+}
+
+.logo a,
+.navmenu a {
+    padding: 10px 15px;
+    text-transform: uppercase;
+    text-align: center;
+    display: block;
+    
+}
+
+.navmenu a {
+    font-size: 1.2em;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+
+
+.navmenu a:hover {
+    color: #000000;
+}
+
+
+
+
+.header {
+   
+    padding-top: .5em;
+    padding-bottom: .5em;
+    background: #3c31dd;
+   
+}
+
+
+.navmenu a.active {
+    color: #000000;
+}
+
+
+
+
+/* Transition effects and styling for the "a" elements in the navigation bar
+    
+*/
+
+
+a {
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: normal;
+    display: inline-block;
+    padding: 15px 20px;
+    position: relative;
+    font-weight: bold;
+}
+
+a:after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #fff;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+
+a:hover:after {
+    width: 100%;
+    left: 0;
+}
+
+@media screen and (max-height: 300px) {
+    ul {
+        margin-top: 40px;
+
+    }
+}
+
+/* Media queries are used to resize the navbar according to the device that it is being displayed on */
+
+@media (min-width: 769px) {
+
+    .header,
+    .navmenu {
+        display: flex;
+    }
+
+    .header {
+        flex-direction: column;
+        align-items: center;
+
+
+
+    }
+}
+
+@media (min-width: 1025px) {
+    .header {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+
+.input-container button {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    outline: 0;
+    background: #3c31dd;
+    margin: auto;
+    display: block;
+    width: 20%;
+    border: 0;
+    padding: 15px;
+    color: white;
+    font-size: 16px;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+    margin-top: auto;
+    margin-right: auto;
+}
+
+.input-container button:hover,
+.input-container button:active,
+.input-container button:focus {
+    background: #3c31dd;
+}
+
+
+.input-container button:hover,
+.input-container button:active,
+.input-container button:focus {
+    background: #837bea;
+}
+
+.input-container input[type="orderid"] {
+    font-family: 'Montserrat', sans-serif;
+    outline: 0;
+    width: 20%;
+    border: 0;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-weight: 300;
+    background-color: rgba(255, 255, 255, 0.07);
+    color: white;
+    margin: auto;
+    display: block;
+    margin-top: 10px;
+    margin-right: auto;
+    margin-bottom: 10px;
+
+}
